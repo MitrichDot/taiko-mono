@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.5.0](https://github.com/MitrichDot/taiko-mono/compare/fork-diff-v0.4.0...fork-diff-v0.5.0) (2025-05-02)
+
+
+### Features
+
+* **website:** update forkdiff ([#14692](https://github.com/MitrichDot/taiko-mono/issues/14692)) ([57a7d28](https://github.com/MitrichDot/taiko-mono/commit/57a7d28480f14adcb78bda25a868b520c9545566))
+* **website:** update forkdiff website ([#14515](https://github.com/MitrichDot/taiko-mono/issues/14515)) ([c820166](https://github.com/MitrichDot/taiko-mono/commit/c8201660635392f1112d5ce97a5401323f880fe1))
+
+
+### Bug Fixes
+
+* **protocol:** rename treasure to treasury ([#13780](https://github.com/MitrichDot/taiko-mono/issues/13780)) ([ccecd70](https://github.com/MitrichDot/taiko-mono/commit/ccecd708276bce3eca84b92c7c48c95b2156dd18))
+
 ## [0.4.0](https://github.com/taikoxyz/taiko-mono/compare/fork-diff-v0.3.0...fork-diff-v0.4.0) (2023-09-25)
 
 

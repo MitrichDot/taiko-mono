@@ -1,5 +1,39 @@
 # Changelog
 
+## [0.13.0](https://github.com/MitrichDot/taiko-mono/compare/eventindexer-v0.12.0...eventindexer-v0.13.0) (2025-05-02)
+
+
+### Features
+
+* **eventindexer:** add get events by address/name param for community ([#14025](https://github.com/MitrichDot/taiko-mono/issues/14025)) ([146f8d5](https://github.com/MitrichDot/taiko-mono/commit/146f8d52100c3aa7412549e0703c4fc363a6ec29))
+* **eventindexer:** add indexes to querying optimizations ([#13951](https://github.com/MitrichDot/taiko-mono/issues/13951)) ([66649bd](https://github.com/MitrichDot/taiko-mono/commit/66649bd60d163e13b4e91258b4bdc51e204aa110))
+* **eventindexer:** add stats tracking ([#13810](https://github.com/MitrichDot/taiko-mono/issues/13810)) ([bfbbb97](https://github.com/MitrichDot/taiko-mono/commit/bfbbb97fcb67dc33749f0f08f84b8bd54eae9aeb))
+* **eventindexer:** Event indexer metrics ([#13762](https://github.com/MitrichDot/taiko-mono/issues/13762)) ([59ed335](https://github.com/MitrichDot/taiko-mono/commit/59ed3355a05c7438813fa11d2f63dc0676602dd6))
+* **eventindexer:** Eventindexer and relayer a5 updates ([#14597](https://github.com/MitrichDot/taiko-mono/issues/14597)) ([87c9d53](https://github.com/MitrichDot/taiko-mono/commit/87c9d53fa9c6911aada78a1746839d14e4401916))
+* **eventindexer:** galaxe api, 2 indexing, http only mode, event query optimizations ([#14122](https://github.com/MitrichDot/taiko-mono/issues/14122)) ([9c6d918](https://github.com/MitrichDot/taiko-mono/commit/9c6d918c8c7c474da88912fafa59e2a2f054f3b7))
+* **eventindexer:** handle reorg ([#13841](https://github.com/MitrichDot/taiko-mono/issues/13841)) ([0a26ce5](https://github.com/MitrichDot/taiko-mono/commit/0a26ce58422d2674f1b5cd151c74bb40f2bec17d))
+* **eventindexer:** Index nfts ([#14418](https://github.com/MitrichDot/taiko-mono/issues/14418)) ([364b09b](https://github.com/MitrichDot/taiko-mono/commit/364b09b52344dff8782be7333eac4fdb3e5d1597))
+* **eventindexer:** speed up sync ([#14258](https://github.com/MitrichDot/taiko-mono/issues/14258)) ([d337174](https://github.com/MitrichDot/taiko-mono/commit/d337174742bfd8d9c220fda0a0e1c9626fd571c2))
+* **eventindexer:** store swap sender correctly, plus check min amt ([#14128](https://github.com/MitrichDot/taiko-mono/issues/14128)) ([67ba5e4](https://github.com/MitrichDot/taiko-mono/commit/67ba5e44eca82c301dcd2a8d3c0909ac080a804c))
+* **eventindexer:** support multiple swap pairs ([#14130](https://github.com/MitrichDot/taiko-mono/issues/14130)) ([2f4a0be](https://github.com/MitrichDot/taiko-mono/commit/2f4a0beb1a431c5c7ff40c3c4b7fcecb094d2e52))
+* **eventindexer:** Timeseries data indexing + refactor to taiko-client/relayer CLI approach and architecture ([#14663](https://github.com/MitrichDot/taiko-mono/issues/14663)) ([7e760b6](https://github.com/MitrichDot/taiko-mono/commit/7e760b63022162ccfc0a11a861900d68958e650a))
+* **eventindexer:** Track proposer/prover rewards, + generate tasks for total/per day ([#14690](https://github.com/MitrichDot/taiko-mono/issues/14690)) ([cc477b9](https://github.com/MitrichDot/taiko-mono/commit/cc477b97c00e8339a87c4d4502a0ee8ad811c10f))
+* **protocol:** alpha-4 with staking-based tokenomics ([#14065](https://github.com/MitrichDot/taiko-mono/issues/14065)) ([1eeba9d](https://github.com/MitrichDot/taiko-mono/commit/1eeba9d97ed8e6e4a8d07a8b0af163a16fbc9ccf))
+* **protocol:** use ring buffer for ETH deposit and optimize storage ([#13868](https://github.com/MitrichDot/taiko-mono/issues/13868)) ([acffb61](https://github.com/MitrichDot/taiko-mono/commit/acffb61b13b44fd4792e8f4a31498d788ca38961))
+* **status-page:** disable L3 on boolean env var ([#13838](https://github.com/MitrichDot/taiko-mono/issues/13838)) ([fed0ca0](https://github.com/MitrichDot/taiko-mono/commit/fed0ca0e9a9176c3feaae38b426df45e09d9af3a))
+* **status-page:** updates for a3 ([#13821](https://github.com/MitrichDot/taiko-mono/issues/13821)) ([7ed816d](https://github.com/MitrichDot/taiko-mono/commit/7ed816d8db7ac75468faa235c09f147db5009034))
+
+
+### Bug Fixes
+
+* **eventindexer:** Ei lint ([#13959](https://github.com/MitrichDot/taiko-mono/issues/13959)) ([184dd80](https://github.com/MitrichDot/taiko-mono/commit/184dd8043721c18e225bdc6e6b2c71d1a591896c))
+* **eventindexer:** int =&gt; string ([#13828](https://github.com/MitrichDot/taiko-mono/issues/13828)) ([d72b97f](https://github.com/MitrichDot/taiko-mono/commit/d72b97fa4163a2e91eda62d9787760d922447429))
+* **eventindexer:** missing swap route ([#14126](https://github.com/MitrichDot/taiko-mono/issues/14126)) ([dc7edce](https://github.com/MitrichDot/taiko-mono/commit/dc7edce0163e252600e15e745728d7f476efec4c))
+* **eventindexer:** route fix ([#14127](https://github.com/MitrichDot/taiko-mono/issues/14127)) ([03eb96f](https://github.com/MitrichDot/taiko-mono/commit/03eb96fad45365ace3b9662c27bd6bc4c972a676))
+* **eventindexer:** update ABI so avgProofTime can be calculated ([#14785](https://github.com/MitrichDot/taiko-mono/issues/14785)) ([cc93140](https://github.com/MitrichDot/taiko-mono/commit/cc931402d368cfcfeff5b3f628368b38c53cdb33))
+* **protocol:** rename treasure to treasury ([#13780](https://github.com/MitrichDot/taiko-mono/issues/13780)) ([ccecd70](https://github.com/MitrichDot/taiko-mono/commit/ccecd708276bce3eca84b92c7c48c95b2156dd18))
+* **relayer:** use erc20vault not token vault for required end var ([#14519](https://github.com/MitrichDot/taiko-mono/issues/14519)) ([a49c65c](https://github.com/MitrichDot/taiko-mono/commit/a49c65c6ba9535a761f4ef2abd7be2b2213a71c2))
+
 ## [0.12.0](https://github.com/taikoxyz/taiko-mono/compare/eventindexer-v0.11.0...eventindexer-v0.12.0) (2023-09-25)
 
 

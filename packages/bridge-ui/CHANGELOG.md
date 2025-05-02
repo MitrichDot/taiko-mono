@@ -1,5 +1,40 @@
 # Changelog
 
+## [0.11.0](https://github.com/MitrichDot/taiko-mono/compare/bridge-ui-v0.10.1...bridge-ui-v0.11.0) (2025-05-02)
+
+
+### Features
+
+* **bridge-ui:** add token to wallet ([#13902](https://github.com/MitrichDot/taiko-mono/issues/13902)) ([683b19c](https://github.com/MitrichDot/taiko-mono/commit/683b19cab30bf8c9c713e889f969336e04641187))
+* **bridge-ui:** sentry integration ([#13943](https://github.com/MitrichDot/taiko-mono/issues/13943)) ([05baee8](https://github.com/MitrichDot/taiko-mono/commit/05baee8ca113b607f89c3cc25354768c8d368b46))
+* **bridge-ui:** update favicon ([#13913](https://github.com/MitrichDot/taiko-mono/issues/13913)) ([7b0976f](https://github.com/MitrichDot/taiko-mono/commit/7b0976fb7239826acc178b209126624634e90548))
+* **protocol:** alpha-4 with staking-based tokenomics ([#14065](https://github.com/MitrichDot/taiko-mono/issues/14065)) ([1eeba9d](https://github.com/MitrichDot/taiko-mono/commit/1eeba9d97ed8e6e4a8d07a8b0af163a16fbc9ccf))
+
+
+### Bug Fixes
+
+* **bridge-ui:** add extra info to sentry ([#13972](https://github.com/MitrichDot/taiko-mono/issues/13972)) ([50a1034](https://github.com/MitrichDot/taiko-mono/commit/50a1034812ded4ed890f9859fc603bfc801dcdc3))
+* **bridge-ui:** filtering out BLL token failure when bridging ([#13969](https://github.com/MitrichDot/taiko-mono/issues/13969)) ([300be15](https://github.com/MitrichDot/taiko-mono/commit/300be15d3fdcdc9297a7b28427cfcdc905991306))
+* **bridge-ui:** fix issue in beforeSend ([#13971](https://github.com/MitrichDot/taiko-mono/issues/13971)) ([08baec0](https://github.com/MitrichDot/taiko-mono/commit/08baec00cfdc235c0baf3d139a8a62df6e34e914))
+* **bridge-ui:** fix proof ([#13748](https://github.com/MitrichDot/taiko-mono/issues/13748)) ([497d7ab](https://github.com/MitrichDot/taiko-mono/commit/497d7abd895bbda2b60311d48bca5ebe3d9755c6))
+* **bridge-ui:** fix svelte-check failures ([#14137](https://github.com/MitrichDot/taiko-mono/issues/14137)) ([a35eac2](https://github.com/MitrichDot/taiko-mono/commit/a35eac28fcef02591faa0538ecbcb0fff1db5ce2))
+* **bridge-ui:** fix use max logic ([#13898](https://github.com/MitrichDot/taiko-mono/issues/13898)) ([1abc3ff](https://github.com/MitrichDot/taiko-mono/commit/1abc3ff1a83b8a87f3e40c498065743e40b4dfff))
+* **bridge-ui:** handle scientific notation ([#14105](https://github.com/MitrichDot/taiko-mono/issues/14105)) ([fcc154e](https://github.com/MitrichDot/taiko-mono/commit/fcc154e058a28cd42ad3e9239a3943668d370fad))
+* **bridge-ui:** handle wrong bridge address ([#13880](https://github.com/MitrichDot/taiko-mono/issues/13880)) ([fe425d9](https://github.com/MitrichDot/taiko-mono/commit/fe425d90d39665ceaca7d6d5ca1b13e5369ebed5))
+* **bridge-ui:** ignoring minters for BLL error ([#14457](https://github.com/MitrichDot/taiko-mono/issues/14457)) ([1257568](https://github.com/MitrichDot/taiko-mono/commit/1257568bc815d1aac8420d3c28166e62ed6ab94f))
+* **bridge-ui:** inform connect when adding erc20 ([#13900](https://github.com/MitrichDot/taiko-mono/issues/13900)) ([2b21f59](https://github.com/MitrichDot/taiko-mono/commit/2b21f59b1171fcedfafb03cddadc5d950cf4c754))
+* **bridge-ui:** issue with decimals ([#13892](https://github.com/MitrichDot/taiko-mono/issues/13892)) ([fbed474](https://github.com/MitrichDot/taiko-mono/commit/fbed4746ec3c75972dca95238569af2a7054a5a1))
+* **bridge-ui:** migrate to wallet connect 2.0 ([#14094](https://github.com/MitrichDot/taiko-mono/issues/14094)) ([eda0333](https://github.com/MitrichDot/taiko-mono/commit/eda0333e34098684b19bc37305b90772e2bf8787))
+* **bridge-ui:** mobile issues ([#13927](https://github.com/MitrichDot/taiko-mono/issues/13927)) ([2cb5125](https://github.com/MitrichDot/taiko-mono/commit/2cb51255ee44ba49d1e2444f2d56433807dda81e))
+* **bridge-ui:** notification toast ([#13926](https://github.com/MitrichDot/taiko-mono/issues/13926)) ([9d0a502](https://github.com/MitrichDot/taiko-mono/commit/9d0a502171669258ded67c8d5a3387c98c8c52e0))
+* **bridge-ui:** reduce sample rate ([#14051](https://github.com/MitrichDot/taiko-mono/issues/14051)) ([e836d7d](https://github.com/MitrichDot/taiko-mono/commit/e836d7da3fdd11e443618af15318b1d93bca117e))
+* **bridge-ui:** return true if the token address is found on dest chain to send correct gas limit ([#14446](https://github.com/MitrichDot/taiko-mono/issues/14446)) ([116b902](https://github.com/MitrichDot/taiko-mono/commit/116b902acb4c5619f39cdc673b0a855085523c34))
+* **bridge-ui:** selecting chain was not informing of errors ([#13712](https://github.com/MitrichDot/taiko-mono/issues/13712)) ([5d29c6d](https://github.com/MitrichDot/taiko-mono/commit/5d29c6d06d4a7b24ef31d18c38e7f1941c322215))
+* **bridge-ui:** set to null when chainID is not one of the two supported, so prevchain can be checked ([#14468](https://github.com/MitrichDot/taiko-mono/issues/14468)) ([c47d5e1](https://github.com/MitrichDot/taiko-mono/commit/c47d5e1552ba9fa3708553a10296495df76ebbe0))
+* **bridge-ui:** update abis ([#13705](https://github.com/MitrichDot/taiko-mono/issues/13705)) ([d3d4e69](https://github.com/MitrichDot/taiko-mono/commit/d3d4e693176b8df1dcdd7321c30d66222121a05b))
+* **pos-dashboard:** Staking dashboard bug fixes ([#14447](https://github.com/MitrichDot/taiko-mono/issues/14447)) ([fd54f13](https://github.com/MitrichDot/taiko-mono/commit/fd54f13c19e59d9fbbab84fc85d8519eab51f623))
+* **repo:** fix vercel build for bridge-ui ([#14655](https://github.com/MitrichDot/taiko-mono/issues/14655)) ([09c11bb](https://github.com/MitrichDot/taiko-mono/commit/09c11bb378c23ef021b947455eb2c7f59fb4e9eb))
+
 ## [0.10.1](https://github.com/taikoxyz/taiko-mono/compare/bridge-ui-v0.10.0...bridge-ui-v0.10.1) (2023-09-25)
 
 

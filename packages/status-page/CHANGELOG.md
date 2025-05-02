@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.13.0](https://github.com/MitrichDot/taiko-mono/compare/status-page-v0.12.0...status-page-v0.13.0) (2025-05-02)
+
+
+### Features
+
+* **eventindexer:** add stats tracking ([#13810](https://github.com/MitrichDot/taiko-mono/issues/13810)) ([bfbbb97](https://github.com/MitrichDot/taiko-mono/commit/bfbbb97fcb67dc33749f0f08f84b8bd54eae9aeb))
+* **eventindexer:** galaxe api, 2 indexing, http only mode, event query optimizations ([#14122](https://github.com/MitrichDot/taiko-mono/issues/14122)) ([9c6d918](https://github.com/MitrichDot/taiko-mono/commit/9c6d918c8c7c474da88912fafa59e2a2f054f3b7))
+* **protocol:** use ring buffer for ETH deposit and optimize storage ([#13868](https://github.com/MitrichDot/taiko-mono/issues/13868)) ([acffb61](https://github.com/MitrichDot/taiko-mono/commit/acffb61b13b44fd4792e8f4a31498d788ca38961))
+* **status-page:** disable L3 on boolean env var ([#13838](https://github.com/MitrichDot/taiko-mono/issues/13838)) ([fed0ca0](https://github.com/MitrichDot/taiko-mono/commit/fed0ca0e9a9176c3feaae38b426df45e09d9af3a))
+* **status-page:** handle multiple layers ([#13770](https://github.com/MitrichDot/taiko-mono/issues/13770)) ([92a4d56](https://github.com/MitrichDot/taiko-mono/commit/92a4d56c7f3b42151b913b053e6717fca3adc347))
+* **status-page:** show latest proof reward ([#13842](https://github.com/MitrichDot/taiko-mono/issues/13842)) ([12a6d04](https://github.com/MitrichDot/taiko-mono/commit/12a6d04541404f8d4258e39c442102cf526c73eb))
+* **status-page:** Status decimals fix + L2 EIP1559 stats added ([#13832](https://github.com/MitrichDot/taiko-mono/issues/13832)) ([3871641](https://github.com/MitrichDot/taiko-mono/commit/38716418801e2d0f84181c891dbfb1bfa3a4f9f0))
+* **status-page:** updates for a3 ([#13821](https://github.com/MitrichDot/taiko-mono/issues/13821)) ([7ed816d](https://github.com/MitrichDot/taiko-mono/commit/7ed816d8db7ac75468faa235c09f147db5009034))
+
+
+### Bug Fixes
+
+* **protocol:** rename treasure to treasury ([#13780](https://github.com/MitrichDot/taiko-mono/issues/13780)) ([ccecd70](https://github.com/MitrichDot/taiko-mono/commit/ccecd708276bce3eca84b92c7c48c95b2156dd18))
+* **status-page:** eth deposit display ([#13763](https://github.com/MitrichDot/taiko-mono/issues/13763)) ([fedab00](https://github.com/MitrichDot/taiko-mono/commit/fedab00148c332a5538265100b103dab9fff98e5))
+* **status-page:** fix stretched favicon ([#13982](https://github.com/MitrichDot/taiko-mono/issues/13982)) ([103f1ae](https://github.com/MitrichDot/taiko-mono/commit/103f1aea772c5eb5e9a293f2ba661d0c4eb96156))
+* **status-page:** proposer title ([#14058](https://github.com/MitrichDot/taiko-mono/issues/14058)) ([412ba70](https://github.com/MitrichDot/taiko-mono/commit/412ba70b7f313c4e81d3b773733e8940d16df6e1))
+* **status-page:** use ttko from env ([#13998](https://github.com/MitrichDot/taiko-mono/issues/13998)) ([2c83f3b](https://github.com/MitrichDot/taiko-mono/commit/2c83f3b8faad27315ec25d6150327631320b0798))
+
 ## [0.12.0](https://github.com/taikoxyz/taiko-mono/compare/status-page-v0.11.0...status-page-v0.12.0) (2023-07-10)
 
 
